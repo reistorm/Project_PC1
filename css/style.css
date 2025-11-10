@@ -566,7 +566,12 @@ progress::-moz-progress-value {
     display: none;
 }
 
+.modal.active {
+    display: flex;
+}
+
 .modal__inner {
+    position: relative;
     width: 66.3rem;
     padding: 9rem 9.5rem;
     background: #2C2C2C;
@@ -609,6 +614,15 @@ progress::-moz-progress-value {
 
 .modal__input:not(:last-child) {
     margin-bottom: 1.6rem;
+}
+
+.modal__close {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
 }
 
 .modal__elements {
