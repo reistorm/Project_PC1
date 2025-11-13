@@ -218,6 +218,11 @@ input {
     color: #FFFFFF;
 }
 
+.course__price {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
 .course__progress {
     width: 100%;
 }
